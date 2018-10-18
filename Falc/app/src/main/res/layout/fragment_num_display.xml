@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NumDisplay">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Spinner
+        android:id="@+id/NUMDISPLAY_DisplaySpinner"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:popupBackground="@android:color/background_dark" />
+</FrameLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="FormatTags">
+        <item>SIDOT</item>
+        <item>SICOMMA</item>
+        <item>TCDOT</item>
+        <item>TDCOMMA</item>
+        <item>EARABIC</item>
+        <item>DEVANAG</item>
+    </string-array>
+    <string-array name="FormatDescriptions">
+        <item>Decimal dot, thousands separator is a thin space. 1 234.56</item>
+        <item>Decimal comma, thousands separator is a this space. 1 234,56</item>
+        <item>Decimal dot, thousands separator is a comma. 1,234.56</item>
+        <item>Decimal comma, thousands separator is a dot. 1.234,56</item>
+        <item>Eastern Arabic digits. ١٬٢٣٤٫٥٦</item>
+        <item>Devanagari digits and Indic grouping. १,२३,४५६.७८</item>
+    </string-array>
+</resources>

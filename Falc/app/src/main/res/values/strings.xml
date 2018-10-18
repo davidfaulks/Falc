@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Falc</string>
+    <string name="dialog_title_format_preference">Number Format</string>
+    <string name="number_format_preference">NumberFormatPrefKey</string>
+</resources>
