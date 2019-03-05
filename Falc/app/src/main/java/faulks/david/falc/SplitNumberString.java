@@ -55,6 +55,7 @@ public class SplitNumberString {
                 exponent_part.setCharAt(0,FormatStore.getDigit(which));
                 zero_exponent = false;
             }
+            else exponent_part.append(FormatStore.getDigit(which));
         }
         // adding it when we are after the decimal separator
         else if (has_decimal_separator) {
