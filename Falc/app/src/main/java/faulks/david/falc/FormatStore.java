@@ -75,7 +75,7 @@ public class FormatStore {
             }
         }
 
-        // converts a styring to a big decimal using the internal formatters
+        // converts a string to a big decimal using the internal formatters
         BigDecimal parseNumberString(String source) throws NumberFormatException {
             Number parsedx;
             if (source.contains(symbols.getExponentSeparator())) {

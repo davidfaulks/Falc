@@ -9,7 +9,6 @@ import android.widget.Button;
 import java.io.Serializable;
 import java.math.BigDecimal;
 import java.math.MathContext;
-import java.math.RoundingMode;
 
 public abstract class CalculatorBase extends AppCompatActivity implements NumPad.NumPadCallback {
 
@@ -30,6 +29,7 @@ public abstract class CalculatorBase extends AppCompatActivity implements NumPad
     //+++++++++++++++++++++++++++++++++++++++++++++++++++
     // private working data
     protected MathContext drmode = MathContext.DECIMAL64;
+    protected MathExtra1 fancy = new MathExtra1(drmode);
     // binary operations are '+', '-', '*', and '/'. 'n' means nothing
     protected char binary_op = 'n';
     protected BigDecimal first_operand;

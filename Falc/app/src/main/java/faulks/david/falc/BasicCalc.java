@@ -3,6 +3,7 @@ package faulks.david.falc;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Button;
@@ -114,7 +115,7 @@ public class BasicCalc extends CalculatorBase {
     }
     private void doSquareRoot() {
         BigDecimal mainOperand = mainDisplay.getDisplayValue();
-        BigDecimal result = MathExtra1.sqrt(mainOperand,drmode);
+        BigDecimal result = fancy.sqrt(mainOperand);
         if (result == null) {
             opfail_msg = "Square root of a negative number!";
             pendingDisplay.setText(opfail_msg);
