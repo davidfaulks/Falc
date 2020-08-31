@@ -1,9 +1,8 @@
 package faulks.david.falc;
 
-import android.support.v4.app.FragmentTransaction;
-import android.support.v7.app.AppCompatActivity;
+import androidx.fragment.app.FragmentTransaction;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Button;
@@ -12,8 +11,6 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.content.Intent;
 import java.math.BigDecimal;
-import java.text.DecimalFormatSymbols;
-import java.util.Locale;
 
 public class BasicCalc extends CalculatorBase {
 

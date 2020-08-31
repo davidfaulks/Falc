@@ -10,8 +10,8 @@ import java.util.Map;
 import java.util.regex.Pattern;
 import java.util.regex.Matcher;
 import android.util.Log;
-import android.support.annotation.Nullable;
-import android.support.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.annotation.NonNull;
 
 /* A singleton of this class will be used to hold pre-defined number formats and utilities.
 * The default Java number formatters are lacking, but I target pre-api-24, so icu is not available

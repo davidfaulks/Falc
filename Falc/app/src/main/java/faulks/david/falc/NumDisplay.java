@@ -1,11 +1,10 @@
 package faulks.david.falc;
 
 
-import android.content.Context;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -15,11 +14,9 @@ import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 
 import java.io.Serializable;
-import java.text.DecimalFormatSymbols;
 import java.util.List;
 import java.util.ArrayList;
 import java.math.BigDecimal;
-import java.util.regex.Matcher;
 
 /* Includes a spinner, which displays the current number as well as the memory. Also has associated
 external methods for manipulating the contents. */
